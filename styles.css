@@ -1,9 +1,11 @@
+/* RESET UNIVERSAL */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* CORPO DA PÁGINA */
 body {
     font-family: Arial, sans-serif;
     color: #333333;
@@ -11,6 +13,7 @@ body {
     background-color: #f5f7f8;
 }
 
+/* CABEÇALHO */
 header {
     background-color: #2a7f8e;
     color: white;
@@ -18,6 +21,7 @@ header {
     text-align: center;
 }
 
+/* MENU */
 nav {
     background-color: #246f7c;
     padding: 15px;
@@ -31,15 +35,27 @@ nav a {
     font-weight: bold;
 }
 
+/* EFEITO AO PASSAR O MOUSE */
 nav a:hover {
     text-decoration: underline;
 }
 
+/* CONTEÚDO PRINCIPAL */
 main {
     max-width: 1000px;
     margin: 30px auto;
     padding: 25px;
     background-color: white;
+}
+
+/* TÍTULOS */
+h1, h2, h3 {
+    margin-bottom: 15px;
+}
+
+/* PARÁGRAFOS */
+p {
+    margin-bottom: 15px;
 }
 
 .aviso {
@@ -63,10 +79,11 @@ header, footer {
     color: white;
 }
 
+/* RODAPÉ */
 footer {
     background-color: #2a7f8e;
     color: white;
     padding: 25px;
     text-align: center;
     margin-top: 30px;
-}   
+}
